@@ -1,7 +1,7 @@
-package com.examples;
+package com.examples.models;
 
 public class Person {
 
-	String firstname;
+	public String firstname;
 	String lastname;
 }

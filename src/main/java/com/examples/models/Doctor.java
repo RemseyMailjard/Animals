@@ -1,4 +1,4 @@
-package com.examples;
+package com.examples.models;
 
 public class Doctor extends Person {
 

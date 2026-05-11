@@ -1,4 +1,6 @@
-package com.examples.models;
+package com.examples;
+
+import com.examples.models.Animal;
 
 public class Bird extends Animal {
 
