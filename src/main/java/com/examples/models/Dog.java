@@ -1,17 +1,14 @@
 package com.examples.models;
 
-//The dog is a Child-class (a.k.a. subclass from Animal)
+// Dog is a child class, also called a subclass, of Animal.
 public class Dog extends Animal {
 
-
-	public Dog(String _name) {
-		super(_name); //Calls animal constructor
-		this.setName(_name);
+	public Dog(String name) {
+		super(name); // Calls the constructor of the parent class Animal
 	}
 
 	@Override
 	public void makeSound() {
-		System.out.print(getName() + "says WOEF");
+		System.out.println(getName() + " says: Woof!");
 	}
 }
-
